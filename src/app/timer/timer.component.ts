@@ -15,7 +15,7 @@ export class TimerComponent implements OnInit {
     minutes: 2,
     hours: 2,
   })
-  private timer = moment.utc(this.duration.asMilliseconds()).format("hh:mm:ss")
+  timer = moment.utc(this.duration.asMilliseconds()).format("hh:mm:ss")
   private toggle: boolean = false
   @Input() panel: PanelComponent
 

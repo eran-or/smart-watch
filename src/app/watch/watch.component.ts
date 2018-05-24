@@ -9,7 +9,7 @@ import { timeout } from 'q';
   templateUrl:'./watch.component.html'
 })
 export class WatchComponent implements OnInit{
-  private ngIfEditMode = false
+  ngIfEditMode = false
   
   @ViewChild('timeInput') timeInput: any
   private interval = null
