@@ -1,0 +1,6 @@
+<div class="d-flex align-items-center justify-content-center">
+  <div *ngIf="!ngIfEditMode">{{time}}</div>
+  <div *ngIf="ngIfEditMode" (keydown)="edit($event)" (mousedown)="edit($event)">
+    <input class="text-center" #timeInput type="text" [(ngModel)]="time" />
+  </div>
+</div>

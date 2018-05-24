@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+html{height: 100%;}
+body{min-height:100%;display:flex;align-items: center;justify-content: center;}
+app-watch>div,app-timer>div{width:300px;height:177px;border:1px solid black;font-size:30px;margin-bottom:100px;}
+app-root>div{border:1px solid black;}
+app-panel>div{width:330px;}
+app-panel>div button{min-width:75px;}
