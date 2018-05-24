@@ -10,6 +10,7 @@ For Clock:
 - add 1 in edit mode
 
 #Usage
+
  `npm install`
  `npm start`
 
